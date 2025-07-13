@@ -34,7 +34,7 @@ RUN mkdir /var/www/plugins/fever mercury_fulltext feediron opencc api_newsplus o
   curl -sL https://github.com/DIYgod/ttrss-plugin-remove-iframe-sandbox/archive/master.tar.gz | \
   tar xzvpf - --strip-components=1 -C remove_iframe_sandbox ttrss-plugin-remove-iframe-sandbox-master && \
   ## Wallabag
-  curl -sL https://github.com/joshp23/ttrss-to-wallabag-v2/archive/master.tar.gz | \
+  curl -sL https://github.com/Vardor/ttrss-to-wallabag-v2/archive/master.tar.gz | \
   tar xzvpf - --strip-components=2 -C wallabag_v2 ttrss-to-wallabag-v2-master/wallabag_v2 && \
   ## Auth OIDC
   curl -sL https://gitlab.tt-rss.org/tt-rss/plugins/ttrss-auth-oidc/-/archive/master/ttrss-auth-oidc-master.tar.gz | \
